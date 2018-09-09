@@ -1,0 +1,182 @@
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+} 
+
+/*
+  ========================================
+  Nav
+  ========================================
+*/
+ul{
+  display: flex;
+  flex-flow: wrap;
+}
+
+ul li{
+  flex-basis: 25%;
+}
+
+.navi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.navi li{
+    display: inline-block
+}
+
+.logo{
+    width: 204px;
+}
+
+.ticketBtn{
+    background: rgb(rgb(0, 0, 0), green, blue)
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,
+.grid{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/*
+  ========================================
+  fullcontainer
+  ========================================
+*/
+
+.fullContainer{
+  width: 100%;
+  background-color: rgb(251, 251, 218);
+  display: flex;
+  justify-content: center;
+}
+
+/*
+  ========================================
+  main stuff
+  ========================================
+*/
+
+.mainVisual{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.mainVisual img{
+  width: 370px;
+}
+
+.link-bar{
+  width: 100%;
+}
+
+
+.bar a{
+  display: flex;
+  justify-content: center;
+  background-color: #a38b78;
+  width: 100%;
+  flex-grow: 1;
+  text-decoration: inherit;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+
+/*
+  ========================================
+  InforArea
+  ========================================
+*/
+
+
+.beforeInfo{
+width: 100%;
+font-size: 20px;
+color: #a38b78;
+margin-bottom: 20px;
+}
+
+.infoTitle{
+  font-size: 28px;
+  line-height: 1.4em;
+  border-bottom: 1px solid #a38b78;
+  padding-bottom: 5px;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  padding-top: 20px;
+}
+
+.foot-links a{
+  padding: 1.5em;
+}
+
+.foot-links2 li{
+  font-size: 12px;
+  list-style-type: none;;
+}
+
+.foot-links2{
+  align-self: flex-start;
+}
